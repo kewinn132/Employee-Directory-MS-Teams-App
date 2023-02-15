@@ -1,1 +1,2 @@
 Header always unset x-frame options
+Header always unset Content-Security-Policy
