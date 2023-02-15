@@ -1,7 +1,1 @@
-<system.webServer>
-     <httpProtocol allowKeepAlive="true" >
-       <customHeaders>
-         <add name="X-Frame-Options" value="*" />
-       </customHeaders>
-     </httpProtocol>
- </system.webServer>
+Header always unset x-frame options
