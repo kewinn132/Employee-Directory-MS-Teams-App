@@ -1,2 +1,2 @@
-Header always unset x-frame options
-Header always unset Content-Security-Policy
+Header set Access-Control-Allow-Origin "*"
+Header set X-Frame-Options "allow-from *"
